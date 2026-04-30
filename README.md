@@ -6,8 +6,8 @@ A full-stack web application for managing projects and tasks with role-based acc
 
 ## 🚀 Live Demo
 
-Frontend: https://your-vercel-url.vercel.app  
-Backend: https://your-railway-url.up.railway.app  
+Frontend: https://team-task-manager-sepia.vercel.app
+Backend: https://team-task-manager-production-ec4b.up.railway.app
 
 ---
 
