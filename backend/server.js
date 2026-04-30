@@ -6,6 +6,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("API is running 🚀");
+});
 
 mongoose.connect("mongodb://rahul290604_db_user:Rahul123@ac-s8mjls5-shard-00-00.b0kp2k2.mongodb.net:27017,ac-s8mjls5-shard-00-01.b0kp2k2.mongodb.net:27017,ac-s8mjls5-shard-00-02.b0kp2k2.mongodb.net:27017/?ssl=true&replicaSet=atlas-hidecw-shard-0&authSource=admin&appName=Cluster0")
   .then(() => console.log("MongoDB connected"))
